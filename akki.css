@@ -9,10 +9,8 @@
     font-size: 62.5%;
 }
 body{
-    background-color:radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
-};
+    background-color:rgb(0, 0, 0);
     
-
 html{
     font-size: 62.5%;
     overflow-x:hidden ;
@@ -25,98 +23,170 @@ html{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: aliceblue;
+    background-color: var(--bg-background-hiding);
+    box-sizing: border-box;
 }
 
 .below2{
-    height:21rem ;
-    width: 118rem;
+    height:39rem ;
+    width: 50.8rem;
     position: absolute;
     top: 118.7rem;
-    left: 0;
-   
-    background-color: aliceblue;
+    right: 10rem;
+    z-index: 1;
+    background-color:var(--bg-background-hiding);
 }
+
 .akki span{
     position: absolute;
 }
 .left{
-    bottom: 8rem;
-    left: 30rem;
-    width: 16.5rem;
-    transform: skewx(330deg);
+    bottom: -4rem;
+    left: 34rem;
+    width: 17rem;
+    transform: skewx(-34deg);
     height: 99.4rem;
     background-color: var(--bg-color);
    
 }
 
 .right{
-    bottom: 0;
-    right: 31rem;
-    width: 16.5rem;
-    transform: skewx(-330deg);
+    bottom: -10rem;
+    right: 36rem;
+    width: 14.5rem;
+    transform: skewx(26deg);
     height: 108rem;
     background-color: var(--bg-color);
-   
+   z-index: 1;
+}
 
-}
 .leftcenter{
-    top: 0rem;
-    left: 29rem;
-    width: 22.8rem;
-    height: 27rem;
+    top: 9rem;
+    left: 26rem;
+    width: 32.8rem;
+    height: 34rem;
     background-color:var(--bg-background-hiding);
-    transform: skewx(330deg);
+    transform: skewx(-35deg);
     overflow: hidden;
+    z-index: 1;
 }
+}
+
 .rightcenter{
-    top: 0rem;
+    top: 8rem;
     right:30rem;
-    height: 25.8rem;
+    height: 28rem;
     width: 27rem;
     background-color:var(--bg-background-hiding);
-    transform: skewx(-329deg);
+    transform: skewx(27.3deg);
    overflow: hidden;
 }
 
 
 .center{
-    height:19rem;
-    width:37rem;
-    top: 76%;
-    left: 34%;
+    height:12rem;
+    width:43.9rem;
+    top: 85%;
+    left: 44.5rem;
     transform: translate(-50%,-50%);
+    box-shadow: inset  -103px 0px 71px -79px #000000;
     background-color: var(--bg-color);
+    z-index: 1;
 }
 
 .centerArrow{
-    height:21rem;
-    width:12rem;
-    bottom: 0;
-    left: 50%;
+    height:33rem;
+    width:10.6rem;
+    bottom: -10.5rem;
+    left: 66.4rem;
+    /* box-shadow: -50px 2px 50px -19px rgba(0,0,0,0.89); */
     background-color: var(--bg-color);
 }
+
 .centertriangle{
-    height:29rem;
-    width:22rem;
-    bottom: 20rem;
-    left: 50%;
+    height:25.7rem;
+    width:19.7rem;
+    bottom: 10.2rem;
+    left: 66.4rem;
     background-color: var(--bg-color);
-    z-index:-1;
+   
 }
+
 .centertriangle_hide{
     height:30rem;
     width:21rem;
-    bottom: 19rem;
-    left: 59.3%;
+    bottom: 10rem;
+    left: 74.6rem;
     background-color:var(--bg-background-hiding) ;
-   transform: skewx(36deg);
+    transform: skewx(37deg);
+    overflow: hidden;
 }
+
 .center_below{
-    height:19rem;
-    width:37rem;
-    top: 90.8rem;
-    left: 34%;
+    height:26rem;
+    width:37.6rem;
+    bottom: -16.9rem;
+    left: 47.7rem;
     transform: translate(-50%,-50%);
+    box-shadow: inset  -103px 0px 71px -79px #000000;
+    background-color: var(--bg-color);z-index: -1;
+} 
+
+.center_below_right{
+    bottom: -4rem;
+    left: 22.7rem;
+    width: 12rem;
+    transform: skewx(-34deg);
+    height: 14.4rem;
+    background-color: var(--bg-background-hiding);
+   
+}
+.center_right_hide{
+    bottom: -18rem;
+    left: 10rem;
+    width: 13rem;
+    transform: skewx(41deg);
+    height: 14rem;
+    background-color: var(--bg-background-hiding);
+   
+}
+.center_right{
+    bottom: -18rem;
+    left: 16rem;
+    width: 13rem;
+    height: 14rem;
     background-color: var(--bg-color);
+   
+}
+.centerArrow_below{
+    height:38.6rem;
+    width:10.1rem;
+    top:0rem;
+    left: 0.5rem;
+    box-shadow: inset  0px 94px 82px -79px #000000;
+    background-color:var(--bg-color);
+}
+.centerArrow_below_left{
+    height:21rem;
+    width:14.1rem;
+    top:-.5rem;
+    right: -.2rem;
+    box-shadow: inset 0px 94px 82px -79px #000000;
+    background-color:var(--bg-color);
+}
+.centerArrow_below_hidd{
+    height:18rem;
+    width:11.8rem;
+    bottom: 0rem;
+    left: -6.2rem;
+    transform: skewx(35deg);
+    background-color:var(--bg-background-hiding);
+}
+.centerArrow_below_left_hid{
+    height:22rem;
+    width:15rem;
+    top:-.5rem;
+    right: -7.8rem;
+    background-color: var(--bg-background-hiding);
+    transform: skewx(-34deg);
 }
