@@ -91,7 +91,7 @@ html{
     transform: translate(-50%,-50%);
     box-shadow: inset  -103px 0px 71px -79px #000000;
     background-color: var(--bg-color);
-    z-index: 1;
+   
 }
 
 .centerArrow{
