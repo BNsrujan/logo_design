@@ -34,25 +34,27 @@ The Akki logo is a modern, geometric design created using CSS shapes and transfo
 - Overflow handling
 - CSS variables for theming
 
+### image created by html and css
+
+![image](https://github.com/BNsrujan/logo_design/blob/main/images/logo1.png)
+
+### Real image
+
+![image](https://github.com/BNsrujan/logo_design/blob/main/images/real_image.jpg)
+
 ## Logo 2: Netflix Logo
 
 Note: The Netflix logo implementation file was not found in the repository. If you'd like to add it, please provide the HTML and CSS files for the Netflix logo design.
-
-## How to Use
-
-1. Clone this repository
-2. Open the HTML files in a web browser
-3. The logos will be displayed with their respective animations
-
-## Requirements
-- Modern web browser with CSS3 support
-- No additional dependencies required
 
 ## Browser Support
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
+
+## Image created by html and css
+
+![image](https://github.com/BNsrujan/logo_design/blob/main/images/logo2.png)
 
 ## Notes
 - The designs use rem units for better scaling
