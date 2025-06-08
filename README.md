@@ -2,9 +2,9 @@
 
 This repository contains two animated logo designs created using pure HTML and CSS.
 
-## Logo 1: Akki Logo
+## Logo 1: Aflaria Logo
 
-The Akki logo is a modern, geometric design created using CSS shapes and transforms. Here's a breakdown of its implementation:
+The Aflaria logo is a modern, geometric design created using CSS shapes and transforms. Here's a breakdown of its implementation:
 
 ### Structure
 - The logo is built using multiple `<span>` elements that are positioned absolutely
@@ -55,6 +55,9 @@ Note: The Netflix logo implementation file was not found in the repository. If y
 ## Image created by html and css
 
 ![image](https://github.com/BNsrujan/logo_design/blob/main/images/logo2.png)
+
+## real image 
+![image](https://github.com/BNsrujan/logo_design/blob/main/images/real_image2.png)
 
 ## Notes
 - The designs use rem units for better scaling
